@@ -24,7 +24,7 @@ The purpose of this project is to explore the effect of higher- or lower-than-ex
 - Calculate the 10-Year CPI Swaps bps Delta as the daily change in the 10-Year CPI swaps yields (USSWIT10 BGN Curncy) on the release date.
   - Date range: 08/17/2004 - 01/15/2025 (constrained start date due to data availability)
 - Calculate the 2-Year CPI Swaps bps Delta as the daily change in the 2-Year CPI swaps yields (USSWIT2 BGN Curncy) on the release date.
-  - - Date range: 08/17/2004 - 01/15/2025 (constrained start date due to data availability)
+  - Date range: 08/17/2004 - 01/15/2025 (constrained start date due to data availability)
 - Load the Excel data into Python for further analysis.
 - Use Pandas to manipulate and explore the data.
 
