@@ -18,9 +18,13 @@ The purpose of this project is to explore the effect of higher- or lower-than-ex
   - A negative CPI Survey Delta (index) means the change in CPI was lower than forecasted by Wall Street.
     - This can indicate lower inflation, potentially causing rates/swaps to rally.
 - Calculate the 10-Year basis point (bps) Delta as the daily change in the 10-Year U.S. Treasury yield (USGG10YR Index) on the release date.
+  - Date range: 01/14/2000 - 01/15/2025
 - Calculate the 2-Year basis point (bps) Delta as the daily change in the 2-Year U.S. Treasury yield (USGG2YR Index) on the release date.
+  - Date range: 01/14/2000 - 01/15/2025
 - Calculate the 10-Year CPI Swaps bps Delta as the daily change in the 10-Year CPI swaps yields (USSWIT10 BGN Curncy) on the release date.
+  - Date range: 08/17/2004 - 01/15/2025 (constrained start date due to data availability)
 - Calculate the 2-Year CPI Swaps bps Delta as the daily change in the 2-Year CPI swaps yields (USSWIT2 BGN Curncy) on the release date.
+  - - Date range: 08/17/2004 - 01/15/2025 (constrained start date due to data availability)
 - Load the Excel data into Python for further analysis.
 - Use Pandas to manipulate and explore the data.
 
